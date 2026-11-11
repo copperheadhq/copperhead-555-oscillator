@@ -1,0 +1,236 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-11T21:41:24",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ",
+            "items": [
+                {
+                    "description": "Footprint H1",
+                    "pos": {
+                        "x": 104.0,
+                        "y": 104.0
+                    },
+                    "uuid": "51d32c5d-ec29-5ce6-a678-35a7775b7722"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ",
+            "items": [
+                {
+                    "description": "Footprint H2",
+                    "pos": {
+                        "x": 155.5,
+                        "y": 130.5
+                    },
+                    "uuid": "4a2623c1-2630-51c1-9669-ce8c6548fe40"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ",
+            "items": [
+                {
+                    "description": "Footprint TP1",
+                    "pos": {
+                        "x": 113.05,
+                        "y": 128.5
+                    },
+                    "uuid": "0daca416-9634-575c-b38d-c3f114d10a82"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ",
+            "items": [
+                {
+                    "description": "Footprint TP2",
+                    "pos": {
+                        "x": 109.5,
+                        "y": 128.5
+                    },
+                    "uuid": "888b7d11-fe2f-55ef-93f3-46aabbb94aaa"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ",
+            "items": [
+                {
+                    "description": "Footprint TP3",
+                    "pos": {
+                        "x": 120.0,
+                        "y": 113.4
+                    },
+                    "uuid": "bbcc8f14-fa30-5e7b-b87b-0d41ba9a89fe"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ",
+            "items": [
+                {
+                    "description": "Footprint TP4",
+                    "pos": {
+                        "x": 133.4,
+                        "y": 123.5
+                    },
+                    "uuid": "ef163c7e-3820-5549-9223-1ded9f9d7cc6"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ",
+            "items": [
+                {
+                    "description": "Footprint TP5",
+                    "pos": {
+                        "x": 142.5,
+                        "y": 114.0
+                    },
+                    "uuid": "0f2de6f9-d1c7-588e-a40e-b9e92c737b8f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        }
+    ],
+    "source": "5-v-variable-frequency-555-oscillator.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1944 mm)",
+            "items": [
+                {
+                    "description": "Pad B12 [GND] of J1 on F.Cu",
+                    "pos": {
+                        "x": 107.36,
+                        "y": 114.3
+                    },
+                    "uuid": "9353202e-7d24-5e4f-a7d8-4a9e42b8cd93"
+                },
+                {
+                    "description": "NPTH pad of J1",
+                    "pos": {
+                        "x": 106.285,
+                        "y": 114.61
+                    },
+                    "uuid": "a42c4467-23cd-5f2b-9e5a-27b3a83351b1"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1944 mm)",
+            "items": [
+                {
+                    "description": "Pad A1 [GND] of J1 on F.Cu",
+                    "pos": {
+                        "x": 107.36,
+                        "y": 114.3
+                    },
+                    "uuid": "9e05ad59-d22d-5240-b0ff-ae18259f9db7"
+                },
+                {
+                    "description": "NPTH pad of J1",
+                    "pos": {
+                        "x": 106.285,
+                        "y": 114.61
+                    },
+                    "uuid": "a42c4467-23cd-5f2b-9e5a-27b3a83351b1"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1944 mm)",
+            "items": [
+                {
+                    "description": "Pad A12 [GND] of J1 on F.Cu",
+                    "pos": {
+                        "x": 107.36,
+                        "y": 120.7
+                    },
+                    "uuid": "2a7c4060-71d6-55b2-9ebf-d9ef17dceb5c"
+                },
+                {
+                    "description": "NPTH pad of J1",
+                    "pos": {
+                        "x": 106.285,
+                        "y": 120.39
+                    },
+                    "uuid": "81b9a788-38ab-5350-9862-fbcb2c2da72b"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1944 mm)",
+            "items": [
+                {
+                    "description": "Pad B1 [GND] of J1 on F.Cu",
+                    "pos": {
+                        "x": 107.36,
+                        "y": 120.7
+                    },
+                    "uuid": "8ba3517d-0a3d-543b-9c1f-aaefaf29b85e"
+                },
+                {
+                    "description": "NPTH pad of J1",
+                    "pos": {
+                        "x": 106.285,
+                        "y": 120.39
+                    },
+                    "uuid": "81b9a788-38ab-5350-9862-fbcb2c2da72b"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        }
+    ]
+}
